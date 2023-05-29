@@ -1,0 +1,288 @@
+.box_todo {
+  width: 600px;
+  padding-top: 50px;
+  position: relative;
+
+}
+
+.homepage {
+  height: 100%;
+  width: 100%;
+  background: #050F1C;
+  display: flex;
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.box_i {
+  position: absolute;
+  right: 30%;
+  top: 100px;
+}
+
+.add-confirm-icon {
+  position: relative;
+  transform: scale(2);
+  cursor: pointer;
+  color: white;
+  z-index: 99;
+}
+
+.zag {
+  color: white;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 75%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.side_bar {
+  margin-top: 10px;
+  position: relative;
+  left: 0;
+  display: block;
+  flex-direction: column;
+  height: auto;
+  width: 260px;
+  border-right: solid 2px #1EBCE2;
+  border-bottom: solid 2px #1EBCE2;
+  border-top: solid 2px #1EBCE2;
+  
+  
+  
+
+}
+
+.category-list {
+  border-top: solid 2px #1EBCE2;
+  padding: 20px;
+  display: block;
+  flex-direction: column;
+  
+  
+  max-width: 100%;
+  background-color: transparent;
+  color: white;
+  height: auto;
+}
+
+.state-list {
+  border-top: solid 2px #1EBCE2;
+  padding: 20px;
+  display: block;
+  flex-direction: column;
+  
+  
+  background-color: transparent;
+  color: white;
+  height: auto;
+}
+
+.calendar-list {
+  border-top: solid 2px #1EBCE2;
+  padding: 20px;
+
+  display: block;
+  flex-direction: column;
+  
+  
+  background-color: transparent;
+  color: white;
+  height: auto;
+}
+
+
+
+
+.task-count {
+  color: white;
+  margin-top: 40px;
+}
+
+.todo.overdue {
+  background-color: red;
+  color: white;
+  /* Если вы хотите изменить цвет текста на белый */
+}
+
+.todo.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+
+
+.task {
+  background-color: white;
+}
+
+.category-list h3 {
+  margin-bottom: 10px;
+}
+
+.category-item,
+.due-date-item,
+.calendar-item,
+.state-item {
+  cursor: pointer;
+  padding: 8px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  width: fit-content;
+}
+
+.btn_all {
+  background-color: #1EBCE2;
+  color: white;
+  padding: 16px;
+  border-radius: 6px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.btn_box {
+  padding: 15px;
+}
+
+.zag {
+  padding-bottom: 20px;
+}
+
+.span-category {
+  margin-left: 10px;
+  font-size: 12px;
+  color: gray;
+}
+
+
+
+.homepage {
+  height: 100%;
+  width: 100%;
+  background: #050F1C;
+  display: flex;
+
+
+
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.project-item {
+  color: white
+}
+
+.projects-sidebar h3 {
+  margin-bottom: 10px;
+}
+
+.project {
+  background-color: transparent;
+  padding: 5px;
+  margin-bottom: 5px;
+  color: #ffffff
+}
+
+.due-date,
+.list-name {
+  color: white;
+}
+
+.add-edit-input {
+  position: relative;
+  outline: none;
+  height: 30px;
+  font-size: 25px;
+  padding: 5px 20px 5px 20px;
+  background: #111C2A;
+  border: 2px solid #1EBCE2;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 10px;
+
+}
+
+.add-edit-input::placeholder {
+  font-size: 19px;
+  color: white;
+}
+
+
+
+.todo {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #111C2A;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  width: 550px;
+}
+
+.todo-list {
+  margin: 0 auto;
+}
+
+.span-item {
+  color: white;
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin-right: 20px;
+}
+
+.edit-button,
+.delete-button {
+  cursor: pointer;
+  margin-left: 10px;
+  color: white;
+
+}
+
+.logout-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 16px;
+  background: #1EBCE2;
+  box-shadow: 0px 0px 16px rgba(138, 247, 255, 0.4);
+  border-radius: 8px;
+  color: white;
+}
+
+.eclipse {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 250px;
+  height: 250px;
+  background: #0877B6;
+  filter: blur(200px);
+}
+
+.eclipse2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 250px;
+  background: #0877B6;
+  filter: blur(200px);
+}
+
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
